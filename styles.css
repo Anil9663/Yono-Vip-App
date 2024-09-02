@@ -1,0 +1,559 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('Images/Main Image/Yono Vip App Download .webp'); /* Background image */
+    background-size: 100% auto; /* Width will be 100% of the screen, height will adjust automatically */
+    background-position: top center; /* Position the image at the top center */
+    background-repeat: no-repeat; /* Ensure the image does not repeat */
+    background-attachment: fixed; /* Keep image fixed in background */
+    background-attachment: scroll; /* Image scrolls with the page content */
+}
+    
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    header {
+        background-color: #2b4623;
+        color: white;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .logo img {
+        height: 75px; /* Adjust as needed */
+        margin-right: 20px;
+        border: 2px solid #ffee00; /* White border with 5px width */
+        border-radius: 20px;       /* Rounded corners with 10px radius */
+        box-sizing: border-box;    /* Ensure padding and border are included in the image's dimensions */
+    }
+    
+    .app-info h1 {
+        margin: 0;
+        font-size: 20px; /* Adjust as needed */
+    }
+    
+    .app-info p {
+        margin: 0;
+        padding-top: 0.2rem;
+        color: #0ff1a6;
+        font-size: 15px; /* Adjust as needed */
+    }
+    
+    .navbar {
+        display: none; /* Hide navbar by default for mobile view */
+    }
+    
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row; /* Align items horizontally for PC */
+    }
+    
+    .navbar li {
+        margin: 0 20px;
+        font-size: 1.5rem;
+    }
+    
+    .navbar a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .download-btn {
+        background-color: #f1c40f;
+        color: #fffefe;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+        
+    }
+    
+    .app-container {
+        margin-top: 51remrem;
+    }
+
+
+
+
+
+    .container2 {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f4f4f4;
+        
+    }
+    .title {
+        text-align: center;
+        font-size: 2.5em;
+        color: #333;
+        margin-bottom: 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .card-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .card {
+        background: #ffffff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+        width: calc(23% - 20px); /* Default for large screens */
+        margin: 10px;
+        text-align: center;
+    }
+    .card:hover {
+        box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        transform: scale(1.03);
+    }
+    .card img {
+        width: 8rem;
+        height: auto;
+        border: 3px solid #00eeff;
+        border-radius: 30%;
+        margin-top: 1rem;
+        }
+    .card-content {
+        padding: 20px;
+    }
+    .card-content h3 {
+        font-size: 1.8em;
+        color: #007bff;
+        margin: 15px 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    .card-content .section {
+        margin: 15px 0;
+    }
+    .section h4 {
+        font-size: 1.2em;
+        color: #333;
+        margin: 10px 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    .section p {
+        font-size: 1em;
+        color: #666;
+    }
+    .sign-up-bonus {
+        color: #28a745; /* Green color for bonus */
+        font-weight: 600;
+    }
+    .minimum-withdrawal {
+        color: #dc3545; /* Red color for withdrawal */
+        font-weight: 600;
+    }
+    .expandable {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 1.6;
+        max-height: 4.8em;
+        margin-bottom: 15px;
+        color: #666;
+    }
+    .expandable.expand {
+        -webkit-line-clamp: unset;
+        max-height: unset;
+    }
+    .btn {
+        background-color: #007bff;
+        color: #fff;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        font-size: 1em;
+        margin-top: 1.2rem;
+        text-decoration: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .btn:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+    }
+   
+
+
+  
+
+
+
+
+.icon-container {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;    
+    right: 0;
+    z-index: 100;
+    border-radius: 15px;
+    background-color: #3e3e3e;
+    padding: 3px;
+}
+
+.icon-container ul li {
+    width: 48px;
+    height: 48px;
+    float: left;
+    position: relative;
+    border-bottom: 1px solid #444;
+}
+
+.icon-container ul li .icon-box {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 0;
+    right: 0;
+    transition: all 0.3s;
+    background: #000;
+    border-radius: 10%;
+    opacity: 0.8;
+    filter: Alpha(opacity=80);
+    color: #fff;
+    font: 14px/48px "";
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon-container ul li .icon-box img {
+    width: 40px;
+}
+
+.icon-container ul li img {
+    float: left;
+}
+
+.icon-container ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.centered-image {
+    position: absolute; /* Fix to the viewport */
+    display: none;
+    top: 85%; /* Vertical center */
+    left: 50%; /* Horizontal center */
+    transform: translate(-50%, -50%); /* Adjust for exact center */
+    width: 200px; /* Width of the image */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1000; /* Ensure it is on top */
+
+}
+
+/* Apply animation to the image */
+.centered-image img {
+    
+    width: 100%; /* Responsive width */
+    height: auto;
+    animation: zoom 5s infinite; /* Apply keyframe animation */
+}
+
+/* Keyframe animation for zooming in and out */
+@keyframes zoom {
+    0% {
+        transform: scale(1); /* Initial size */
+    }
+    50% {
+        transform: scale(1.2); /* Zoomed in */
+    }
+    100% {
+        transform: scale(1); /* Zoomed out to original size */
+    }
+}
+
+.hed1 {
+    font-size: 20px; /* Default font size */
+    color: red; /* Default text color */
+    border-style: double solid;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    display: inline-block;
+    background-color: #FFEBEB;
+    border-width: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+
+
+footer {
+    background-color: #170c29; /* आपके पसंदीदा रंग के अनुसार */
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+    font-family: Georgia;
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: Verdana;
+  }
+
+
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Scale the icon to 120% on hover */
+}
+
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    font-family: Georgia;
+    background-color: #3a177279; /* थोड़ा डार्क शेड */
+  }
+  
+ 
+     /* Specific styling for the main-table-container class */
+     .main-table-container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 2px solid #751a0c;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background-color: #ffffff;
+        overflow-x: auto; /* Horizontal scrolling for small screens */
+    }
+
+    /* Styling only for the table inside .main-table-container */
+    .main-table-container table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 1rem;
+    }
+
+    .main-table-container th,
+    .main-table-container td {
+        padding: 12px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .main-table-container th {
+        background-color: #007bff;       
+        color: white;
+        font-weight: bold;
+    }
+
+    .main-table-container tr:nth-child(odd) {
+        background-color: #ffffff;
+    }
+
+    .main-table-container tr:nth-child(even) {
+        background-color: #f1f1f1;
+    }
+
+    .main-table-container .header-row th {
+        font-size: 1.2rem;
+    }
+
+
+
+
+  /* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    .card {
+        width: calc(100% - 20px); /* Full width for mobile */
+    }
+
+    .container2 {
+        margin-top: 42rem;
+    }
+
+    .hed1 {
+        font-size: 18px; /* Adjust font size for medium screens */
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+
+    .main-table-container .header-row th {
+        font-size: 1rem;
+    }
+
+    .main-table-container th,
+    .main-table-container td {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    .centered-image {
+        display: block; /* Show only on mobile devices */
+    }
+}
+
+/* Tablet (min-width: 769px) and (max-width: 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .card {
+        width: calc(45% - 20px); /* Two cards on tablets */
+    }
+
+    .container2 {
+        margin-top: 80rem;
+    }
+}
+
+/* Laptops (min-width: 1025px) and (max-width: 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .card {
+        width: calc(30% - 20px); /* Three cards on laptops */
+    }
+
+    .container2 {
+        margin-top: 90rem;
+    }
+}
+
+/* Large screens (min-width: 1201px) */
+@media (min-width: 1201px) {
+    .card {
+        width: calc(23% - 20px); /* Four cards on larger screens */
+    }
+
+    .container2 {
+        margin-top: 155rem;
+    }
+}
+
+/* Tablet and laptop styles (min-width: 768px) */
+@media (min-width: 768px) {
+    .logo img {
+        height: 80px; /* Adjust as needed */
+    }
+
+    .download-button {
+        margin-top: 10px;
+    }
+
+    .app-info h1 {
+        font-size: 2.5rem;
+    }
+
+    .app-info p {
+        font-size: 1.4rem;
+        margin-top: 1px;
+    }
+
+    .navbar {
+        display: block; /* Show navbar on PC view */
+    }
+
+    .download-btn {
+        margin-left: 20px; /* Ensure spacing on PC view */
+        font-size: 1.5rem;
+    }
+}
+
+/* Responsive design for screens (max-width: 1440px) */
+@media (max-width: 1440px) {
+    .heading {
+        border-style: double solid;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        padding: 5px;
+        color: rgb(255, 0, 157);
+        display: inline-block;
+        background-color: #FFEBEB;
+        border-width: 5px;
+        box-sizing: border-box;
+    }
+}
+
+/* Small screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .hed1 {
+        font-size: 16px; /* Adjust font size for small screens */
+    }
+
+    .main-table-container .header-row th {
+        font-size: 0.9rem;
+    }
+
+    .main-table-container th,
+    .main-table-container td {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+}
+
+  
